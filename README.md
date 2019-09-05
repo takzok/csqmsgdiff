@@ -17,6 +17,7 @@ Get html file that contains CSQ messages.
 #### syntax
 
 `python csqmsgdiff.py source [url_list] [output_path]`
+
 | attribute   | description                                                                       |
 |-------------|-----------------------------------------------------------------------------------|
 | url_list    | Specify text file with URL of Knowledge center.                                   |
@@ -31,6 +32,7 @@ Generate CSQ message list in CSV format.
 #### syntax
 
 `python csqmsgdiff.py scrape [input_path] [output_path]`
+
 | attribute   | description                                                                       |
 |-------------|-----------------------------------------------------------------------------------|
 | version     | Specify target MQ version (800, 900, 910).                                        |
@@ -44,6 +46,7 @@ Generate a diff file of CSQ messages between MQ versions
 #### syntax
 
 `python csqmsgdiff.py source [referenced_csv_path] [comapred_csv_path] [output_path]`
+
 | attribute           | description                                                              |
 |---------------------|--------------------------------------------------------------------------|
 | referenced_csv_path | Specify the location to read csv file(s). (left side pane in diff file)  |
@@ -51,4 +54,5 @@ Generate a diff file of CSQ messages between MQ versions
 | output_path         | Specify the location to save the generated diff file.                    |
 
 ## Todo
+
 - [ ] リファクタリング

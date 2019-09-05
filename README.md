@@ -8,7 +8,7 @@ python 3.5 or later(pre-req lxml)
 
 ## Usage
 
-`python csqmsgdiff.py -h` to displya help.
+`python csqmsgdiff.py -h` to display help.
 
 ### source command
 

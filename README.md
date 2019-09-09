@@ -1,6 +1,6 @@
 # csqmsgdiff
 
-This application parses IBM MQ for z / OS system messages from the manual on the Knowledge Center and outputs the differences between versions.
+This application parses IBM MQ for z/OS system messages from the manual on the Knowledge Center and outputs the differences between versions.
 
 ## Prerequisties
 

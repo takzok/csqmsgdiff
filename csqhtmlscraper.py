@@ -62,8 +62,8 @@ def parse_mq_800(soup, ver, path):
         f = codecs.open(''.join(file_name), 'w', 'utf-8')
         try:
             # write header infomation
-            f.write('message' + soup.find('title').text + '\n')
-            f.write('version' + ver + '\n')
+            f.write('message: ' + soup.find('title').text + '\n')
+            f.write('version: ' + ver + '\n')
             f.write("message ID,message" + '\n')
             # scraping html
             tag = soup.find_all(['dt', 'dd'])

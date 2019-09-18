@@ -182,6 +182,8 @@ def format_message(message_description):
     # remove extra blanks
     message_description = re.sub(r'\s{2,}', ' ', message_description)
     message_description = re.sub(r'\s$', '', message_description)
+    # remove leading blanks
+    message_description = re.sub(r'^\s', '', message_description)
     # replace soft blank
     message_description = message_description.replace('\\xc2\\xa0', ' ')
     # replace symbol
